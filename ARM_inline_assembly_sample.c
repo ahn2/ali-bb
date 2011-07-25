@@ -3,6 +3,9 @@
 Inline ARM assembly in C
 By: ALI NUHI
 
+compiled on 32bit w7 machine using cygwin and codesourcery using command:
+arm-none-linux-gnueabi-gcc ARM_inline_assembly_sample.C -march=armv7-a -mtune=cortex-a8 -o arm_asm
+
 */
 #include <stdio.h>
 
